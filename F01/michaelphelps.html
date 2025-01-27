@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Phelps Story</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/78d02e9bfb.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --olympic-blue: #0085C7;
+            --olympic-yellow: #F4C300;
+            --olympic-black: #000000;
+            --olympic-green: #009F3D;
+            --olympic-red: #DF0024;
+        }
+
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .hero-section {
+            height: 60vh;
+            position: relative;
+            border-bottom: 5px solid var(--olympic-yellow);
+        }
+
+        .hero-section iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .olympic-header {
+            background: linear-gradient(90deg, var(--olympic-yellow) 0%, var(--olympic-black) 100%);
+            padding: 1.5rem;
+            color: var(--olympic-black);
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .olympic-header a {
+            transition: opacity 0.3s ease;
+        }
+
+        .olympic-header a:hover {
+            opacity: 0.8;
+        }
+
+        .quick-facts {
+            background: linear-gradient(135deg, rgba(0, 133, 199, 0.1) 0%, rgba(0, 159, 61, 0.1) 100%);
+            border-left: 4px solid var(--olympic-blue);
+        }
+
+        .achievement-list .list-group-item {
+            border-left: 3px solid var(--olympic-yellow);
+            transition: all 0.3s ease;
+        }
+
+        .achievement-list .list-group-item:hover {
+            background-color: rgba(244, 195, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: var(--olympic-blue);
+        }
+
+        .lead {
+            color: var(--olympic-black);
+        }
+
+        .olympic-rings {
+            height: 35px;
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="olympic-header">
+        <a href="index.html" class="text-decoration-none">
+            <h4 class="text-white fw-bold text-uppercase">PodiumStory</h4>
+        </a>
+        <img src="assets/images/olympic-ring.png" alt="Olympic Rings" class="olympic-rings">
+    </div>
+    <div class="hero-section">
+        <iframe src="https://www.youtube.com/embed/mDQDTPWNcQ0?si=KrDGFbhyZennVTTI" title="Athlete Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="container py-5">
+        <h1 class="display-4 text-center mb-5 fw-bold">Michael Phelps</h1>
+        <div class="quick-facts p-4 rounded mb-5">
+            <h2 class="h4 mb-4">Quick Facts</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="fw-bold">Sport</p>
+                    <p>Swimmer</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fw-bold">Country</p>
+                    <p>American</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fw-bold">Olympics</p>
+                    <p>2006 - 2016</p>
+                </div>
+            </div>
+        </div>
+        <div class="mb-5">
+            <h2 class="h2 mb-4 text-olympic-blue">The Story</h2>
+            <p class="lead mb-4">
+                Michael Phelps wasn't just born to swim—he was born to dominate the water like no one before him.
+                Growing up in Baltimore, Maryland, Phelps was introduced to swimming at the age of seven to channel his
+                boundless energy and manage his ADHD. Little did the world know that this energetic kid would go on to
+                become the most decorated Olympian of all time. His story is one of unparalleled dedication, unrelenting
+                focus, and an insatiable hunger to push beyond limits.
+            </p>
+            <p class="mb-4">
+                Phelps' rise to greatness began early. By the age of 15, he had already qualified for his first Olympic
+                Games in Sydney 2000, making him the youngest male swimmer to represent Team USA in 68 years. Though he
+                didn&rsquo;t medal, it was just the beginning of a legendary career. At the 2004 Athens Olympics, Phelps
+                won
+                six gold medals and two bronze, signaling his arrival as a true powerhouse in the pool.
+            </p>
+            <p class="mb-4">
+                However, it was the 2008 Beijing Olympics that cemented his legacy, where he achieved the unprecedented
+                feat of winning eight gold medals in a single Games, breaking Mark Spitz's long-standing record. His
+                performances were marked by sheer dominance, breathtaking finishes, and the now-iconic fingertip victory
+                in the 100m butterfly. But his journey wasn&rsquo;t without obstacles—mental health struggles,
+                relentless
+                training schedules, and the pressure of living up to his own legacy challenged him at every step.
+            </p>
+            <p class="mb-4">
+                Phelps continued his reign in the 2012 London and 2016 Rio Olympics, adding more medals to his tally and
+                further proving his versatility across multiple strokes and distances. Despite announcing his retirement
+                multiple times, his love for the sport kept bringing him back to the water, each time with the same
+                passion and intensity.
+            </p>
+            <p class="mb-4">
+                Beyond his physical prowess, Phelps' influence extends far beyond the pool. He has been an outspoken
+                advocate for mental health awareness, sharing his own struggles with depression and anxiety to inspire
+                others. Today, he continues to motivate aspiring swimmers and athletes worldwide, proving that true
+                greatness is about perseverance, resilience, and never backing down from challenges.
+            </p>
+            <p class="mb-4">
+                From an energetic kid with big dreams to the greatest Olympian in history, Michael Phelps' story is an
+                enduring legacy of hard work, heart, and an unwavering pursuit of excellence.
+            </p>
+        </div>
+        <div>
+            <h2 class="h2 mb-4 text-olympic-blue">Achievements</h2>
+            <ul class="list-group list-group-flush achievement-list">
+                <li class="list-group-item">Most Decorated Olympian of All Time &ndash; A staggering 28 Olympic medals,
+                    including 23 gold, making him the most successful athlete in Olympic history.</li>
+                <li class="list-group-item">Eight Gold Medals in a Single Olympics – Achieved at the 2008 Beijing Games,
+                    breaking the record for the most golds won in one Olympics.</li>
+                <li class="list-group-item">World Records – Holds numerous world records across multiple events,
+                    including the 200m butterfly and 400m individual medley.</li>
+                <li class="list-group-item">Longest Reign in Swimming – Dominated the sport for over two decades,
+                    winning international titles from 2001 to 2016.</li>
+                <li class="list-group-item">Five-Time Olympian – Competed in five Olympic Games (2000, 2004, 2008, 2012,
+                    and 2016), showcasing unmatched longevity in swimming.</li>
+                <li class="list-group-item">Multiple World Championships Titles – Claimed over 30 gold medals at the
+                    FINA World Championships, proving his dominance beyond the Olympics.</li>
+                <li class="list-group-item">Sports Illustrated Sportsman of the Year (2008) – Honored for his
+                    record-breaking performance and contributions to the sport.</li>
+                <li class="list-group-item">Laureus World Sportsman of the Year (2 times) – Recognized as one of the
+                    greatest athletes globally for his achievements.</li>
+                <li class="list-group-item">Mental Health Advocacy – Became a leading voice in promoting mental health
+                    awareness among athletes worldwide.</li>
+                <li class="list-group-item">Inspiration to Future Generations – His influence on swimming continues to
+                    inspire young athletes to pursue their dreams and break new barriers.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

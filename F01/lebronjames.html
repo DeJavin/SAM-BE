@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeBron James Story</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/78d02e9bfb.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --olympic-blue: #0085C7;
+            --olympic-yellow: #F4C300;
+            --olympic-black: #000000;
+            --olympic-green: #009F3D;
+            --olympic-red: #DF0024;
+        }
+
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .hero-section {
+            height: 60vh;
+            position: relative;
+            border-bottom: 5px solid var(--olympic-yellow);
+        }
+
+        .hero-section iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .olympic-header {
+            background: linear-gradient(90deg, var(--olympic-yellow) 0%, var(--olympic-black) 100%);
+            padding: 1.5rem;
+            color: var(--olympic-black);
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .olympic-header a {
+            transition: opacity 0.3s ease;
+        }
+
+        .olympic-header a:hover {
+            opacity: 0.8;
+        }
+
+        .quick-facts {
+            background: linear-gradient(135deg, rgba(0, 133, 199, 0.1) 0%, rgba(0, 159, 61, 0.1) 100%);
+            border-left: 4px solid var(--olympic-blue);
+        }
+
+        .achievement-list .list-group-item {
+            border-left: 3px solid var(--olympic-yellow);
+            transition: all 0.3s ease;
+        }
+
+        .achievement-list .list-group-item:hover {
+            background-color: rgba(244, 195, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: var(--olympic-blue);
+        }
+
+        .lead {
+            color: var(--olympic-black);
+        }
+
+        .olympic-rings {
+            height: 35px;
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="olympic-header">
+        <a href="index.html" class="text-decoration-none">
+            <h4 class="text-white fw-bold text-uppercase">PodiumStory</h4>
+        </a>
+        <img src="assets/images/olympic-ring.png" alt="Olympic Rings" class="olympic-rings">
+    </div>
+    <div class="hero-section">
+        <iframe src="https://www.youtube.com/embed/2KRsUDCQiCc?si=RqIa1J-nyvR8FSu_" title="Athlete Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="container py-5">
+        <h1 class="display-4 text-center mb-5 fw-bold">LeBron James</h1>
+        <div class="quick-facts p-4 rounded mb-5">
+            <h2 class="h4 mb-4">Quick Facts</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="fw-bold">Sport</p>
+                    <p>Basketball</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fw-bold">Country</p>
+                    <p>American</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fw-bold">Olympics</p>
+                    <p>2004 - 2008 - 2012 - 2024</p>
+                </div>
+            </div>
+        </div>
+        <div class="mb-5">
+            <h2 class="h2 mb-4 text-olympic-blue">The Story</h2>
+            <p class="lead mb-4">
+                From the rough streets of Akron, Ohio, to becoming a global basketball icon, LeBron James' journey to
+                greatness is one of resilience, talent, and unyielding dedication. Often referred to as "King James,"
+                LeBron’s rise to the top was anything but easy. Raised by a single mother in a challenging environment,
+                he found his escape and his purpose on the basketball court. With every dribble, pass, and slam dunk,
+                LeBron's dream was becoming more and more of a reality.
+            </p>
+            <p class="mb-4">
+                LeBron’s story started at the tender age of 18 when he was selected as the first overall pick in the
+                2003 NBA Draft by the Cleveland Cavaliers. Immediately thrust into the limelight, LeBron faced the
+                weight of high expectations. His journey was not without its challenges—early playoff disappointments,
+                scrutiny from media and fans, and the pressure of carrying a franchise. Yet, he consistently proved his
+                worth, showing his incredible basketball IQ, versatility, and leadership on the court.
+            </p>
+            <p class="mb-4">
+                After a highly publicized decision in 2010 to join the Miami Heat, LeBron won his first two NBA
+                championships, with MVP-worthy performances that showed his growth as a player and leader. But it was
+                his return to Cleveland in 2014 that defined his legacy. Leading the Cavaliers to victory in the 2016
+                NBA Finals, LeBron delivered on his promise to bring a championship to Cleveland, ending the city’s
+                52-year sports title drought and securing a historic comeback from a 3-1 deficit in the Finals.
+            </p>
+            <p class="mb-4">
+                LeBron continued to build his legacy with the Los Angeles Lakers, adding another championship in 2020
+                and solidifying his status as one of the greatest players to ever play the game. Beyond the hardwood,
+                LeBron became a voice for social justice, education, and community empowerment, opening the "I PROMISE
+                School" for at-risk children and using his platform to advocate for change.
+            </p>
+            <p class="mb-4">
+                LeBron James' story is not just about basketball; it’s about overcoming obstacles, inspiring millions,
+                and using his influence for the greater good. He remains a role model for aspiring athletes and young
+                people everywhere, showing that greatness is not just about athletic achievement but about leaving a
+                lasting legacy in the world.
+            </p>
+            <p class="mb-4">
+                From Akron’s underdog to the throne of the NBA, LeBron’s legacy is defined by both his on-court
+                brilliance and his off-court impact. His story is a true testament to the power of perseverance,
+                passion, and the relentless pursuit of excellence.
+            </p>
+        </div>
+        <div>
+            <h2 class="h2 mb-4 text-olympic-blue">Achievements</h2>
+            <ul class="list-group list-group-flush achievement-list">
+                <li class="list-group-item">4× NBA Champion – LeBron has claimed four NBA titles (2012, 2013, 2016,
+                    2020) with the Miami Heat, Cleveland Cavaliers, and Los Angeles Lakers.</li>
+                <li class="list-group-item">2× Olympic Gold Medals – Helped lead Team USA to victory in the 2008 and
+                    2012 Summer Olympics, solidifying his global basketball dominance.</li>
+                <li class="list-group-item">17× NBA All-Star – Selected to the All-Star team 17 times, showcasing his
+                    long-standing excellence in the league.</li>
+                <li class="list-group-item">NBA Finals MVP (4 times) – Named Finals MVP four times, highlighting his
+                    incredible performances on the biggest stage.</li>
+                <li class="list-group-item">NBA All-Time Scoring Leader (Top 5) – One of the top scorers in NBA history,
+                    constantly climbing the all-time points list.</li>
+                <li class="list-group-item">NBA All-Defensive Team Selections – Recognized for his defensive prowess,
+                    LeBron has been named to the NBA All-Defensive Team multiple times.</li>
+                <li class="list-group-item">Historic 3-1 Finals Comeback – Led the Cleveland Cavaliers to the NBA
+                    Championship in 2016, orchestrating the first-ever 3-1 Finals comeback to beat the Golden State
+                    Warriors.</li>
+                <li class="list-group-item">Founder of the "I PROMISE School" – Established an institution focused on
+                    helping at-risk children in Akron, showcasing his commitment to education and community.</li>
+                <li class="list-group-item">Mental Health Advocacy – Became a leading voice in promoting mental health
+                    awareness among athletes worldwide.</li>
+                <li class="list-group-item">Philanthropic Impact – Continues to use his platform to advocate for social
+                    justice, empowerment, and equality, influencing change on and off the court.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
